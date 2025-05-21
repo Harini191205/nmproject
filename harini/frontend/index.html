@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Autonomous Vehicle Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>AI Autonomous Vehicle Dashboard</h1>
+    <div id="controls">
+        <button id="startBtn">Start Simulation</button>
+        <button id="stopBtn">Stop Simulation</button>
+    </div>
+    <div id="status">
+        <p>Status: <span id="vehicleStatus">stopped</span></p>
+        <p>Position: <span id="vehiclePosition">[0, 0]</span></p>
+        <p>Velocity: <span id="vehicleVelocity">[0, 0]</span></p>
+        <p>Obstacle Detected: <span id="obstacleDetected">false</span></p>
+    </div>
+    <canvas id="vehicleCanvas" width="600" height="400"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

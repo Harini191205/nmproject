@@ -1,0 +1,35 @@
+AI Autonomous Vehicle and Robotics Project Plan
+
+Information Gathered:
+- User wants a project involving AI autonomous vehicle and robotics.
+- Technologies: Python for backend, HTML/CSS/JavaScript for frontend.
+- No existing files, so project will be created from scratch.
+
+Plan:
+1. Backend (Python):
+   - Use Flask as a lightweight web framework to serve API endpoints and frontend files.
+   - Implement a simple AI simulation for autonomous vehicle behavior (e.g., path planning, obstacle avoidance).
+   - Implement basic robotics control logic simulation.
+   - Provide API endpoints to get vehicle status, sensor data, and control commands.
+
+2. Frontend (HTML/CSS/JavaScript):
+   - Create a dashboard to visualize the autonomous vehicle and robot status.
+   - Use JavaScript (possibly with a canvas or SVG) to simulate vehicle movement and sensor data visualization.
+   - Provide controls to start/stop simulation and send commands.
+
+3. Integration:
+   - Frontend communicates with backend via REST API calls.
+   - Backend runs the simulation and updates frontend with current state.
+
+Dependent Files to be created:
+- backend/app.py (Flask app with AI and robotics simulation)
+- frontend/index.html (Dashboard UI)
+- frontend/style.css (Styling)
+- frontend/script.js (Frontend logic and API communication)
+
+Followup Steps:
+- Implement backend Flask app with simulation logic.
+- Implement frontend dashboard.
+- Test integration and simulation functionality.
+
+Please confirm if I can proceed with this plan or provide any additional requirements.
